@@ -1,0 +1,545 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(250, 232, 215, 1);
+  font-family: "Poppins", "Roboto", sans-serif;
+}
+
+.h1_general {
+  margin: 2vw 0vw 1vw 0vw;
+  font-weight: 600;
+}
+
+main {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Header */
+header {
+  background-color: rgba(240, 199, 158, 1);
+  border-bottom: 2px solid black;
+  height: 7vh;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+.logoHeader {
+  width: 6vh;
+}
+
+.logoIGHeader {
+  width: 1vw;
+  
+}
+
+li {
+  display: inline;
+  padding: 0.75vw;
+
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.navbar {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+}
+
+li:hover{
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(250, 232, 215, 1);
+  height: 10%;
+  text-align: center;
+  font-style: italic;
+  font-size: small;
+  border-top: 2px solid black;
+}
+
+.logoFooter {
+  width: 50px;
+}
+
+.logoIGFooter {
+  width: 15px;
+}
+
+/* INDEX */
+
+.textoIndex {
+  display: flex;
+  flex-direction: column;
+  
+  margin-top: 5vh;
+  width: 100%;
+  height: 65vh;
+  grid-area: 2 / 2 / 4 / 3;
+  
+  
+}
+
+#contenedorTextoIndex {
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3,1fr);
+ 
+
+}
+
+
+
+#imagenHome {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+
+.bodyIndex {
+  background-image: url(../images/home/cocina.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.bodyIndex footer {
+  height: 150px;
+  width: 100%;
+}
+
+.headerIndex {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: rgba(240, 199, 158, 0.8);
+}
+
+.h1Home,
+#parrafoHome {
+  font-family: "Roboto";
+}
+
+.h1Home {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#horizonHome {
+  padding-left: 2vw;
+  align-self: flex-start;
+}
+
+#mueblesHome {
+  align-self: flex-end;
+}
+#parrafoHome {
+  font-style: italic;
+  font-weight: bolder;
+}
+
+
+/* MAIN PROCESO */
+.procesoContenido {
+  display: flex;
+  width: 50em;
+  /*width: 50vw;*/
+  margin: 0;
+  padding: 5vw;
+  border: 1px gray solid;
+  border-radius: 1vh;
+  box-shadow: 0.7vh 0.5vw 1vh black;
+ 
+}
+
+.procesoContenido img {
+  height: 13vw;
+  width: 20vw;
+  opacity: 0.8;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.imgDerecha{
+  margin-left: 1vw;
+}
+
+.imgIzquierda{
+  margin-right: 1vw;
+}
+
+.textoContenido {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  text-align: justify;
+}
+
+.textoContenido h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.textoContenido p{
+  font-size: 1rem;
+}
+
+.proceso {
+  padding: 0 3vw 5vh 5vw;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.flechaProceso {
+  margin-bottom: 4vh;
+  height: 5vh;
+}
+
+
+
+
+
+/* MAIN CONTACTO */
+
+.contactoDatos,
+.contactoForm {
+  width: 500px;
+  margin: 4vh 0vw 8vh 0vw; 
+
+
+}
+
+.contactoDatos {
+  border-right: 1px solid black;
+}
+
+.contactoDatos iframe{
+  width: 90%;
+  padding: 0 auto 0 auto; 
+
+}
+
+.contactoForm {
+  border-left: 1px solid black;
+}
+
+.contactoDatos img {
+  width: 0.9vw;
+}
+
+.parrafoDatos {
+  display: inline;
+}
+
+.contactoForm div {
+  padding: 0.5vw;
+}
+
+.contactoForm input,
+textarea {
+  border: 1px solid rgb(238, 203, 168);
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgba(240, 199, 158, 0.5)
+}
+
+#nombreForm input {
+  height: 2.2vh;
+  width: 15vw;
+}
+
+#emailForm input {
+  height: 2.2vh;
+  width: 15vw;
+}
+
+#botonForm button {
+  font-family: "Roboto";
+  font: xx-large;
+  border: 0px;
+  color: white;
+  background-color: grey;
+  border-radius: 5px;
+  height: 3vh;
+  width: 20vw;
+}
+
+#textoForm {
+  font-style: italic;
+  width: 25vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.containerContacto {
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap-reverse; 
+}
+
+hr{
+  height:0px;
+}
+
+
+
+
+
+/* SOBRE NOSOTROS */
+
+.historia {
+  width: 30%;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid rgba(1, 1, 1, 0.3);
+  border-radius: 1vw;
+  align-self: flex-end;
+  box-shadow: 0.5vh 0.5vw 0.8vh black;
+  
+}
+
+.historia p {
+  padding: 15px;
+}
+.historia img {
+  width: 15%;
+}
+
+#imagenNosotros {
+  margin-left: 5%;
+  width: 35%;
+  border-radius: 10px;
+}
+#tituloSobreNosotros {
+  font-size: 25px;
+}
+.containerSobreNosotros {
+  margin: 10% 0% 15% 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* PROYECTOS */
+
+#imagenesProyecto img {
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  object-fit: cover;
+}
+
+#imagenesProyecto{
+  display:grid;
+  margin: 0% 40px 70px 20px; 
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+  grid-gap: 20px;
+}
+
+#imagen1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin: auto; 
+}
+
+#imagen2{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+#imagen3{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+#imagen4{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+
+
+/* RESPONSIVE DESIGN FOR SMALLER DEVICES */
+
+@media screen and (max-width: 768px) {
+  /* HEADER */
+  .container {
+    flex-direction: column;
+  }
+  header h1 {
+    font-size: 20px;
+  }
+  header{
+    height:11vh;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  li {
+    font-size: 0.9rem;
+    padding: 4px;
+  }
+
+  .logoIGHeader{
+    width: 2.5vw;
+  }
+
+
+  
+  /* INDEX */
+
+  .h1Home {
+    font-size: 2rem;
+  }
+
+  #parrafoHome {
+    font-size: 0.9rem;
+  }
+
+  .textoIndex {
+    width: 70vw;
+    
+  }
+
+  .bodyIndex {
+    background-position: center;
+  }
+
+  #contenedorTextoIndex{
+    width: 100vw;
+  }
+
+
+  /*PROYECTOS*/
+  #imagenesProyecto{
+    display:flex;
+    flex-direction: column;
+  }
+
+
+
+  /* PROCESO */
+
+  .procesoContenido{
+    flex-direction: column;
+  }
+  .procesoContenido img{
+    height: 30vw;
+    width: 45vw;
+  }
+  .textoContenido p{
+    font-size: 0.8rem; 
+  }
+  .textoContenido{
+    margin-bottom: 10px;
+  }
+
+
+
+  /* SOBRE NOSOTROS*/
+  .containerSobreNosotros{
+    flex-direction: column;
+  }
+  .historia{
+    align-self: center;
+    width: 60vw;
+  }
+  #imagenNosotros{
+    margin: 0%;
+    padding-top: 3vh;
+    width: 60vw;
+  }
+
+  /* CONTACTO */
+  .containerContacto{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactoDatos, .contactoForm{
+    margin: 0%;
+    border: 0px;
+    width: auto;
+  }
+
+  .contactoDatos{
+    padding-top: 1vh;
+    order: 2; 
+  }
+
+  .contactoForm{
+    padding-bottom: 1vh;
+  }
+  #nombreForm input {
+    height: 3.5vh;
+    width: 30vw;
+  }
+  
+  #emailForm input {
+    height: 3.5vh;
+    width: 30vw;
+  }
+
+  #mensajeForm textarea{
+    width: 50vw;
+  }
+
+  #textoForm{
+    width: 60vw;
+  
+  }
+
+  #botonForm button{
+    width: 60vw;
+  }
+
+  hr{
+    height: 2px;
+    background-color: black;
+    width: 60vw;
+  }
+}
+
