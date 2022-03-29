@@ -9,7 +9,7 @@
 
 body {
   background-color: rgba(250, 232, 215, 1);
-  font-family: "Poppins", "Roboto", sans-serif;
+  font-family: "Poppins", "Roboto", sans-serif !important;
 }
 
 .h1_general { 
@@ -136,7 +136,7 @@ footer {
 
 .h1Home,
 #parrafoHome {
-  font-family: "Roboto";
+  font-family: "Roboto" !important;
 }
 
 .h1Home {
