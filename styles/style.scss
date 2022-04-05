@@ -303,38 +303,44 @@ hr{
 
 
 /* SOBRE NOSOTROS */
+.sobreNosotros {
+  &__container{
+    margin: 20vh 0% 30vh 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-.historia {
-  width: 30%;
-  font-size: 16px;
-  font-weight: 500;
-  border: 1px solid rgba(1, 1, 1, 0.3);
-  border-radius: 1vw;
-  align-self: flex-end;
-  box-shadow: 0.5vh 0.5vw 0.8vh black;
+    &__historia{
+      width: 30%;
+      font-size: 16px;
+      font-weight: 500;
+      border: 1px solid rgba(1, 1, 1, 0.3);
+      border-radius: 1vw;
+      align-self: flex-end;
+      box-shadow: 0.5vh 0.5vw 0.8vh black;
+
+      p{
+        padding: 15px;
+      }
+      img{
+        width: 8vw;
+      }
+
+      &__titulo{
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+    }
+
+    &__imagen{
+      margin-left: 5vw;
+      width: 35vw;
+      border-radius: 10px;
+    }
+  }
   
-}
 
-.historia p {
-  padding: 15px;
-}
-.historia img {
-  width: 15%;
-}
 
-#imagenNosotros {
-  margin-left: 5%;
-  width: 35%;
-  border-radius: 10px;
-}
-#tituloSobreNosotros {
-  font-size: 25px;
-}
-.containerSobreNosotros {
-  margin: 10% 0% 15% 0%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* PROYECTOS */
@@ -430,17 +436,21 @@ hr{
 
 
   /* SOBRE NOSOTROS*/
-  .containerSobreNosotros{
-    flex-direction: column;
-  }
-  .historia{
-    align-self: center;
-    width: 60vw;
-  }
-  #imagenNosotros{
-    margin: 0%;
-    padding-top: 3vh;
-    width: 60vw;
+  .sobreNosotros{
+    &__container{
+      flex-direction: column;
+      margin: 5vh 0 10vh 0; 
+      &__historia{
+        align-self: center;
+        width: 80vw;
+      }
+      &__imagen{
+        margin: 0%;
+        padding-top: 3vh;
+        width: 80vw;
+      }
+    }
+    
   }
 
   /* CONTACTO */
