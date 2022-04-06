@@ -1,0 +1,89 @@
+@media screen and (max-width: 768px) {
+  /* INDEX */
+  .index__contenedor {
+    width: 100vw;
+  }
+  .index__contenedor__textoIndex {
+    width: 70vw;
+  }
+  .index__contenedor__textoIndex__h1Home {
+    font-size: 2rem;
+  }
+  #parrafoHome {
+    font-size: 0.9rem;
+  }
+  .index__body {
+    background-position: center;
+  }
+  /*PROYECTOS*/
+  #imagenesProyecto {
+    display: flex;
+    flex-direction: column;
+  }
+  /* PROCESO */
+  .proceso__containerProcesos__proceso__contenido {
+    flex-direction: column;
+  }
+  .proceso__containerProcesos__proceso__contenido img {
+    height: 30vw;
+    width: 45vw;
+  }
+  .proceso__containerProcesos__proceso__contenido p {
+    font-size: 0.8rem;
+  }
+  .proceso__containerProcesos__proceso__contenido__texto {
+    margin-bottom: 10px;
+  }
+  /* SOBRE NOSOTROS*/
+  .sobreNosotros__container {
+    flex-direction: column;
+    margin: 5vh 0 10vh 0;
+  }
+  .sobreNosotros__container__historia {
+    align-self: center;
+    width: 80vw;
+  }
+  .sobreNosotros__container__imagen {
+    margin: 0%;
+    padding-top: 3vh;
+    width: 80vw;
+  }
+  /* CONTACTO */
+  .contacto__containerContacto__caja {
+    margin: 0%;
+    border: 0px;
+    width: auto;
+  }
+  .contacto__containerContacto__cajaDatos {
+    margin-bottom: 0;
+  }
+  .contacto__containerContacto__cajaDatos img {
+    width: 2vw;
+  }
+  .contacto__containerContacto__cajaForm {
+    padding-top: 1vh;
+  }
+  .contacto__containerContacto__cajaForm__nombre input {
+    height: 3.5vh;
+    width: 30vw;
+  }
+  .contacto__containerContacto__cajaForm__email input {
+    height: 3.5vh;
+    width: 30vw;
+  }
+  .contacto__containerContacto__cajaForm__mensaje textarea {
+    width: 50vw;
+  }
+  .contacto__containerContacto__cajaForm__texto {
+    width: 70vw;
+  }
+  .contacto__containerContacto__cajaForm__boton button {
+    width: 50vw;
+  }
+  hr {
+    height: 2px;
+    background-color: black;
+    width: 60vw;
+  }
+}
+/*# sourceMappingURL=mediaQueries.css.map */

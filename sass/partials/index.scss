@@ -1,0 +1,60 @@
+  
+.index__body {
+    background-image: url(../images/home/cocina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    
+    footer{
+      height: 150px;
+      width: 100%;
+    }
+  }
+  
+  
+  .index__contenedor{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    
+    &__textoIndex {
+      display: flex;
+      flex-direction: column;
+      margin-top: 5vh;
+      width: 100%;
+      height: 65vh;
+      grid-area: 2 / 2 / 4 / 3;
+      font-family: "Roboto" !important;
+        
+      &__h1Home{
+        font-size: 40px;
+        font-weight: bolder;
+      }
+        
+    }
+  
+  
+  }
+    
+   
+  .index__nabvar{
+    background-color: $color-header-index;
+    border-bottom: 1px solid black; 
+  }
+    
+  
+  #horizonHome {
+    padding-left: 2vw;
+    align-self: flex-start;
+  }
+  
+  #mueblesHome {
+    align-self: flex-end;
+  }
+  #parrafoHome {
+    font-style: italic;
+    font-weight: bolder;
+  }
+  

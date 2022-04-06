@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+$color-body: rgba(250, 232,215,1);
+$color-header: rgba(240, 199, 158, 1);
+$color-header-index: rgba(240, 199, 158, 0.8);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $color-body;
+  font-family: "Poppins", "Roboto", sans-serif !important;
+}
+
+.h1_general { 
+  margin: 5vh 0vw 1vh 0vw;
+  font-weight: 600; 
+}
+
+main {
+  text-align: center;
+}
+
+
+/* Header */
+
+.claseNavbar{
+    background-color: $color-header;
+    border-bottom: 1px solid black;
+
+    &__logoHeader {
+        width: 6vh;
+      }
+    
+    a {
+        font-weight: 550;
+        transition-duration: 0.2s;
+
+    }
+
+    a:hover{
+        font-weight: bold;
+    }
+
+    &__h1Navbar{
+        font-weight:500;
+
+    }
+
+  }
+    
+  
+  /* Footer */
+.footer {
+  background-color: $color-body;
+  height: 10%;
+  text-align: center;
+  font-style: italic;
+  font-size: small;
+  border-top: 2px solid black;
+
+  &__logoFooter{
+    width: 50px;
+
+  }
+
+  &__logoIGFooter{
+    width: 15px;
+
+  }
+}
+  
+@import ".partials/index.scss";
+@import ".partials/contacto.scss";
+@import ".partials/proceso.scss";
+@import ".partials/sobre_nosotros.scss";
+@import ".partials/proyecto.scss";
+@import ".partials/mediaQueries.scss";

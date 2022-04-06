@@ -1,0 +1,147 @@
+@media screen and (max-width: 768px) {
+
+
+    /* INDEX */
+  
+    .index__contenedor{
+      width: 100vw;
+  
+      &__textoIndex{
+        width: 70vw;
+  
+        &__h1Home{
+          font-size: 2rem;
+        }
+      }
+  
+      
+    }
+  
+    #parrafoHome {
+      font-size: 0.9rem;
+    }
+  
+  
+    .index__body {
+      background-position: center;
+    }
+  
+  
+    /*PROYECTOS*/
+    #imagenesProyecto{
+      display:flex;
+      flex-direction: column;
+    }
+  
+  
+  
+    /* PROCESO */
+  
+    .proceso{
+      &__containerProcesos{
+        &__proceso{
+        
+          &__contenido{
+  
+            flex-direction: column;
+            img{
+              height: 30vw;
+              width: 45vw;
+            }
+  
+            p{
+              font-size: 0.8rem; 
+            }
+  
+            &__texto{
+              margin-bottom: 10px;
+            }
+  
+          } 
+  
+        }
+  
+      }
+      
+    }
+  
+   
+  
+  
+    /* SOBRE NOSOTROS*/
+    .sobreNosotros{
+      &__container{
+        flex-direction: column;
+        margin: 5vh 0 10vh 0; 
+        &__historia{
+          align-self: center;
+          width: 80vw;
+        }
+        &__imagen{
+          margin: 0%;
+          padding-top: 3vh;
+          width: 80vw;
+        }
+      }
+      
+    }
+  
+    /* CONTACTO */
+  
+    .contacto{
+      &__containerContacto{
+  
+        &__caja{
+          margin: 0%;
+          border: 0px;
+          width: auto;
+        }
+  
+        &__cajaDatos{
+          margin-bottom: 0;
+  
+          img{
+            width: 2vw;
+  
+          }
+          
+        }
+  
+        &__cajaForm{
+          padding-top: 1vh;
+          
+          &__nombre input{
+            height: 3.5vh;
+            width: 30vw;
+          }
+  
+          &__email input{
+            height: 3.5vh;
+            width: 30vw;
+          }
+  
+          &__mensaje textarea{
+            width: 50vw;
+          }
+  
+          &__texto{
+            width: 70vw;
+          }
+  
+          &__boton button{
+            width: 50vw;
+          }
+  
+        }
+      }
+    }
+  
+  
+    hr{
+      height: 2px;
+      background-color: black;
+      width: 60vw;
+    }
+  }
+  
+  

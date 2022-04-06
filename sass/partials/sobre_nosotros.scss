@@ -1,0 +1,39 @@
+.sobreNosotros {
+    &__container{
+      margin: 20vh 0% 30vh 0%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      &__historia{
+        width: 30%;
+        font-size: 16px;
+        font-weight: 500;
+        border: 1px solid rgba(1, 1, 1, 0.3);
+        border-radius: 1vw;
+        align-self: flex-end;
+        box-shadow: 0.5vh 0.5vw 0.8vh black;
+  
+        p{
+          padding: 15px;
+        }
+        img{
+          width: 8vw;
+        }
+  
+        &__titulo{
+          font-size: 1.5rem;
+          font-weight: bold;
+        }
+      }
+  
+      &__imagen{
+        margin-left: 5vw;
+        width: 35vw;
+        border-radius: 10px;
+      }
+    }
+    
+  
+  
+  }

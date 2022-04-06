@@ -1,0 +1,67 @@
+.proceso{
+    &__containerProcesos{
+  
+      &__flecha{
+        margin-bottom: 4vh;
+        height: 5vh;
+      }
+  
+      &__proceso{
+        padding: 0 3vw 5vh 5vw;
+        display: flex;
+        justify-content: center;
+        
+        &__contenido{
+          display: flex;
+          width: 50em;
+          /*width: 50vw;*/
+          margin: 0;
+          padding: 5vw;
+          border: 1px gray solid;
+          border-radius: 1vh;
+          box-shadow: 0.7vh 0.5vw 1vh black;
+        
+          img{
+            height: 13vw;
+            width: 20vw;
+            opacity: 0.8;
+            border-radius: 10px;
+            align-self: center;
+          }
+  
+          &__imgDerecha{
+            margin-left: 1vw;
+          }
+  
+          &__imgIzquierda{
+            margin-right: 1vw;
+          }
+  
+          &__texto{
+            margin-left: 1vw;
+            margin-right: 1vw;
+            text-align: justify;
+  
+            h2{
+              font-size: 2rem;
+              text-align: center;
+            }
+  
+            p{
+              font-size: 1rem;
+            }
+          }
+  
+        }
+  
+  
+      }
+  
+  
+  
+    }
+  
+  
+  
+  }
+  
