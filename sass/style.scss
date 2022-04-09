@@ -38,12 +38,13 @@ main {
     
     a {
         font-weight: 550;
-        transition-duration: 0.2s;
+        transition-duration: 0.2s !important;
 
     }
 
     a:hover{
         font-weight: bold;
+        
     }
 
     &__h1Navbar{
@@ -73,10 +74,11 @@ main {
 
   }
 }
-  
-@import ".partials/index.scss";
-@import ".partials/contacto.scss";
-@import ".partials/proceso.scss";
-@import ".partials/sobre_nosotros.scss";
-@import ".partials/proyecto.scss";
-@import ".partials/mediaQueries.scss";
+
+
+@import 'index';
+@import 'contacto';
+@import 'proceso';
+@import 'sobre_nosotros';
+@import 'proyecto';
+@import 'mediaQueries';
