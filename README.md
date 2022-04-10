@@ -1,4 +1,3 @@
-
 # Proyecto Final Coderhouse - Horizon 
 
 Proyecto realizado durante el curso de Desarrollo Web, donde se realizó el maquetado, diseño
