@@ -114,8 +114,8 @@ main {
   font-weight: bolder;
 }
 
-.contacto__containerContacto__caja {
-  margin: 4vh 0vw 8vh 0vw;
+.contacto__containerContacto__caja, .contacto__containerContacto__cajaDatos, .contacto__containerContacto__cajaForm {
+  margin: 4vh 0vw 10vh 0vw;
 }
 
 .contacto__containerContacto__cajaDatos {
@@ -336,7 +336,7 @@ hr {
     width: 80vw;
   }
   /* CONTACTO */
-  .contacto__containerContacto__caja {
+  .contacto__containerContacto__caja, .contacto__containerContacto__cajaDatos, .contacto__containerContacto__cajaForm {
     margin: 0%;
     border: 0px;
     width: auto;

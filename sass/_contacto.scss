@@ -2,10 +2,11 @@
     &__containerContacto{
       
       &__caja{
-        margin: 4vh 0vw 8vh 0vw; 
+        margin: 4vh 0vw 10vh 0vw; 
       }
   
       &__cajaDatos{
+        @extend .contacto__containerContacto__caja;
         border-right: 1px solid black;
   
         iframe{
@@ -24,6 +25,7 @@
   
   
       &__cajaForm{
+        @extend .contacto__containerContacto__caja;
         border-left: 1px solid black;
         
     
