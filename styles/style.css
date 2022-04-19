@@ -250,6 +250,7 @@ hr {
   border-radius: 1vw;
   align-self: flex-end;
   box-shadow: 0.5vh 0.5vw 0.8vh black;
+  animation: 1s ease-out 0s 1 entradaPorIzquierda;
 }
 
 .sobreNosotros__container__historia p {
@@ -269,6 +270,25 @@ hr {
   margin-left: 5vw;
   width: 35vw;
   border-radius: 10px;
+  animation: 1s ease-out 0s 1 entradaPorDerecha;
+}
+
+@keyframes entradaPorDerecha {
+  0% {
+    transform: translateX(70vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes entradaPorIzquierda {
+  0% {
+    transform: translateX(-70vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 #imagenesProyecto {
