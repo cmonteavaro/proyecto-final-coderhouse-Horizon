@@ -2,7 +2,7 @@
     &__containerContacto{
       
       &__caja{
-        margin: 4vh 0vw 10vh 0vw; 
+        margin: 4vh 0vw 17vh 0vw; 
       }
   
       &__cajaDatos{
@@ -10,7 +10,7 @@
         border-right: 1px solid black;
   
         iframe{
-          width: 90%;
+          width: 85%;
           padding: 0 auto 0 auto;
         }
         
@@ -30,14 +30,14 @@
         
     
         div{
-          padding: 0.5vw;
+          padding: 0.3vw;
         }
     
         input, textarea{
           border: 1px solid rgb(238, 203, 168);
           border-radius: 5px;
           padding: 5px;
-          background-color: rgba(240, 199, 158, 0.5)  
+          background-color: rgba(240, 199, 158, 0.5);  
         }
   
         &__nombre input{
@@ -51,14 +51,20 @@
         }
   
         &__boton button{
-          font-family: "Roboto";
           font: xx-large;
-          border: 0px;
-          color: white;
-          background-color: grey;
-          border-radius: 5px;
+          border: 2px solid rgb(238, 203, 168);
+          background-color: map-get($colores, body);
+          border-radius: 10px;
           height: 3vh;
           width: 20vw;
+          transition-duration: 0.2s;
+        }
+
+        &__boton button:hover{
+          background-color: map-get($colores, header);
+          color: white;
+          height: 3.5vh;
+          width: 21vw;
         }
   
         &__texto{
@@ -66,6 +72,10 @@
           width: 25vw;
           margin-left: auto;
           margin-right: auto;
+        }
+
+        &__p{
+          margin:0;
         }
   
       }

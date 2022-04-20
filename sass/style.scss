@@ -17,6 +17,9 @@ $colores:(body: rgba(250, 232,215,1), header:rgba(240, 199, 158, 1), header-inde
   box-sizing: border-box;
 }
 
+
+
+
 body {
   background-color: map-get($colores, body);
   font-family: "Poppins", "Roboto", sans-serif !important;
@@ -61,6 +64,11 @@ main {
   }
     
   
+header .activo{
+  font-weight: bolder;
+}
+
+
   /* Footer */
 .footer {
   background-color: map-get($colores, body);
@@ -82,9 +90,11 @@ main {
 }
 
 
+
 @import 'index';
 @import 'contacto';
 @import 'proceso';
 @import 'sobre_nosotros';
 @import 'proyecto';
 @import 'mediaQueries';
+

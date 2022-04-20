@@ -92,13 +92,17 @@
       &__containerContacto{
   
         &__caja{
-          margin: 0%;
+          margin: 0 0 5vh 0;
           border: 0px;
           width: auto;
         }
   
         &__cajaDatos{
           margin-bottom: 0;
+
+          iframe{
+            width: 80vw;
+          }
   
           img{
             width: 2vw;
@@ -112,16 +116,16 @@
           
           &__nombre input{
             height: 3.5vh;
-            width: 30vw;
+            width: 50vw;
           }
   
           &__email input{
             height: 3.5vh;
-            width: 30vw;
+            width: 50vw;
           }
   
           &__mensaje textarea{
-            width: 50vw;
+            width: 70vw;
           }
   
           &__texto{
