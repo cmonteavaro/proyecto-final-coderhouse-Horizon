@@ -42,24 +42,5 @@
   }
 
 
-@keyframes entradaPorDerecha {
-  0% {
-    transform: translateX(+70vw);
-    
-  }
-  100% {
-    transform: translateX(0);
-  
-  }
-}
 
-@keyframes entradaPorIzquierda {
-  0% {
-    transform: translateX(-70vw);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-  
   

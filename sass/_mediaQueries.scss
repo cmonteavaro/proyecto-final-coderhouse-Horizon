@@ -132,9 +132,14 @@
             width: 70vw;
           }
   
-          &__boton button{
+          &__boton {
+            button{
             width: 50vw;
           }
+          button:hover{
+            width: 52vw;
+          }
+        }
   
         }
       }
