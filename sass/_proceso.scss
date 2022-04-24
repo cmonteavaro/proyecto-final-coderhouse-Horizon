@@ -4,7 +4,7 @@
       &__flecha{
         margin-bottom: 4vh;
         height: 5vh;
-        animation: 1s ease-out 0s 1 animacionFlecha;
+        animation: 0.7s ease-out 0s 1 animacionFlecha;
       }
   
       &__proceso{
@@ -57,12 +57,12 @@
         }
         
         &__izquierda{
-          animation: 1s ease-out 0s 1 entradaPorIzquierda;
+          animation: 0.7s ease-out 0s 1 entradaPorIzquierda;
         } 
 
         &__derecha{
 
-          animation: 1s linear 0s 1 entradaPorDerecha;
+          animation: 0.7s linear 0s 1 entradaPorDerecha;
         }
   
   
