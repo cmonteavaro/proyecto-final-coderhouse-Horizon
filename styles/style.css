@@ -84,7 +84,7 @@ header .activo {
 }
 
 .index__body {
-  background-image: url(/images/home/cocina1.jpg);
+  background-image: url(../images/home/cocina1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
