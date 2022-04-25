@@ -84,6 +84,7 @@ header .activo {
 }
 
 .index__body {
+  background-image: url(/images/home/cocina1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -299,7 +300,7 @@ hr {
   border-radius: 1vw;
   align-self: flex-end;
   box-shadow: 0.5vh 0.5vw 0.8vh black;
-  animation: 1s ease-out 0s 1 entradaPorIzquierda;
+  animation: 0.7s ease-out 0s 1 entradaPorIzquierda;
 }
 
 .sobreNosotros__container__historia p {
@@ -319,21 +320,43 @@ hr {
   margin-left: 5vw;
   width: 35vw;
   border-radius: 10px;
-  animation: 1s ease-out 0s 1 entradaPorDerecha;
+  animation: 0.7s ease-out 0s 1 entradaPorDerecha;
 }
 
-#imagenesProyecto {
+.proyecto__imagenesProyecto {
   display: flex;
   flex-direction: column;
-  gap: 1vh;
+  gap: 3vh;
   margin: 4vh 1vw 0vh 1vw;
+  align-items: center;
 }
 
-#imagenesProyecto img {
-  width: 100%;
+.proyecto__imagenesProyecto img {
+  width: 90%;
   height: 100%;
   margin: 0px;
   object-fit: cover;
+}
+
+.proyecto__containerMobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px gray solid;
+  border-radius: 1vh;
+  box-shadow: 0.7vh 0.5vw 1vh black;
+}
+
+.proyecto__containerMobile__caption {
+  text-align: center;
+}
+
+.proyecto__containerMobile__caption h4 {
+  font-weight: 600;
+}
+
+.proyecto__containerMobile img {
+  margin: 0vh 0vw 1vh 0vw;
 }
 
 @media screen and (max-width: 768px) {
@@ -354,9 +377,15 @@ hr {
     background-position: center;
   }
   /*PROYECTOS*/
-  #imagenesProyecto {
+  .proyecto__imagenesProyecto {
     display: flex;
     flex-direction: column;
+  }
+  .proyecto__containerMobile__caption {
+    font-size: 0.7rem;
+  }
+  .proyecto__containerMobile__caption h4 {
+    font-size: 0.8rem;
   }
   /* PROCESO */
   .proceso__containerProcesos__proceso__contenido {

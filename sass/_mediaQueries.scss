@@ -28,9 +28,21 @@
   
   
     /*PROYECTOS*/
-    #imagenesProyecto{
-      display:flex;
-      flex-direction: column;
+    .proyecto{
+      &__imagenesProyecto{
+        display:flex;
+        flex-direction: column;
+      }
+
+      &__containerMobile{
+        &__caption{
+          h4{
+            font-size: 0.8rem;
+          }
+          font-size: 0.7rem;
+        }
+      }
+      
     }
   
   

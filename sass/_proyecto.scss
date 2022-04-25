@@ -1,17 +1,43 @@
-#imagenesProyecto{
+.proyecto{
+  &__imagenesProyecto{
     display:flex;
     flex-direction: column;
-    gap: 1vh;
+    gap: 3vh;
     margin: 4vh 1vw 0vh 1vw;
+    align-items: center;
+    
+    img {
+      width: 90%;
+      height: 100%;
+      margin: 0px;
+      object-fit: cover;
+    }
+
   }
-  
-  
-  
-  #imagenesProyecto img {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    object-fit: cover;
+  &__containerMobile{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px gray solid;
+    border-radius: 1vh;
+    box-shadow: 0.7vh 0.5vw 1vh black;
+    
+    &__caption{
+      text-align: center;
+      h4{
+        font-weight: 600;
+      }
+    }
+    img{
+      margin: 0vh 0vw 1vh 0vw;
+    }
+    
   }
+}
+
+  
+  
+  
+   
   
   
