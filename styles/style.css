@@ -327,7 +327,7 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 3vh;
-  margin: 4vh 1vw 0vh 1vw;
+  margin: 4vh 1vw 4vh 1vw;
   align-items: center;
 }
 
