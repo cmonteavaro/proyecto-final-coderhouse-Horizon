@@ -327,7 +327,7 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 3vh;
-  margin: 4vh 1vw 4vh 1vw;
+  margin: 0vh 1vw 4vh 1vw;
   align-items: center;
 }
 
@@ -357,6 +357,12 @@ hr {
 
 .proyecto__containerMobile img {
   margin: 0vh 0vw 1vh 0vw;
+}
+
+.proyecto__h1 {
+  margin: 1vh 0vw 0vh 0vw;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {
