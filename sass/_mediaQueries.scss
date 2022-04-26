@@ -43,7 +43,10 @@
     }
   
   
-  
+    body[data-aos-duration='4000'] [data-aos],
+    [data-aos][data-aos][data-aos-duration='800'] {
+      transition-duration: 500ms;
+    }
     /* PROCESO */
   
     .proceso{
@@ -66,10 +69,10 @@
               margin-bottom: 10px;
             }
   
-          } 
-  
+          }
+
         }
-  
+
       }
       
     }

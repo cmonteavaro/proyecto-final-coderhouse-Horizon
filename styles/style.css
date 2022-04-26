@@ -381,6 +381,10 @@ hr {
   .proyecto__containerMobile__caption h4 {
     font-size: 0.8rem;
   }
+  body[data-aos-duration='4000'] [data-aos],
+  [data-aos][data-aos][data-aos-duration='800'] {
+    transition-duration: 500ms;
+  }
   /* PROCESO */
   .proceso__containerProcesos__proceso__contenido {
     flex-direction: column;
