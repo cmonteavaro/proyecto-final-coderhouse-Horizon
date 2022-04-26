@@ -4,7 +4,7 @@
       &__flecha{
         margin-bottom: 4vh;
         height: 5vh;
-        animation: 0.7s ease-out 0s 1 animacionFlecha;
+
       }
   
       &__proceso{
@@ -55,16 +55,7 @@
 
   
         }
-        
-        &__izquierda{
-          animation: 0.7s ease-out 0s 1 entradaPorIzquierda;
-        } 
 
-        &__derecha{
-
-          animation: 0.7s linear 0s 1 entradaPorDerecha;
-        }
-  
   
       }
   
@@ -75,13 +66,3 @@
   
   
   }
-  
-@keyframes animacionFlecha{
-  0%{
-    transform: scale(0,0)
-  }
-
-  100%{
-    transform: scale(1,1);
-  }
-}

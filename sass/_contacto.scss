@@ -39,6 +39,10 @@
           padding: 5px;
           background-color: rgba(240, 199, 158, 0.5);  
         }
+
+        textarea{
+          resize:none; 
+        }
   
         &__nombre input{
           height: 2.2vh;
@@ -55,16 +59,15 @@
           border: 2px solid rgb(238, 203, 168);
           background-color: map-get($colores, body);
           border-radius: 10px;
-          height: 3vh;
           width: 20vw;
           transition-duration: 0.2s;
+          padding: 0.5vh 0;
         }
 
         &__boton button:hover{
           background-color: map-get($colores, header);
           color: white;
-          height: 3.5vh;
-          width: 21vw;
+          width: 22vw;
           
         }
   

@@ -49,12 +49,12 @@ header .activo {
 
 /* Footer */
 .footer {
-  background-color: #fae8d7;
+  background-color: #f0c79e;
   height: 10%;
   text-align: center;
   font-style: italic;
   font-size: small;
-  border-top: 2px solid black;
+  border-top: 1px solid black;
 }
 
 .footer__logoFooter {
@@ -84,7 +84,7 @@ header .activo {
 }
 
 .index__body {
-  background-image: url(../images/home/cocina.jpg);
+  background-image: url(../images/home/cocina.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0px 0px;
@@ -173,6 +173,10 @@ header .activo {
   background-color: rgba(240, 199, 158, 0.5);
 }
 
+.contacto__containerContacto__cajaForm textarea {
+  resize: none;
+}
+
 .contacto__containerContacto__cajaForm__nombre input {
   height: 2.2vh;
   width: 15vw;
@@ -188,16 +192,15 @@ header .activo {
   border: 2px solid #eecba8;
   background-color: #fae8d7;
   border-radius: 10px;
-  height: 3vh;
   width: 20vw;
   transition-duration: 0.2s;
+  padding: 0.5vh 0;
 }
 
 .contacto__containerContacto__cajaForm__boton button:hover {
   background-color: #f0c79e;
   color: white;
-  height: 3.5vh;
-  width: 21vw;
+  width: 22vw;
 }
 
 .contacto__containerContacto__cajaForm__texto {
@@ -218,7 +221,6 @@ hr {
 .proceso__containerProcesos__flecha {
   margin-bottom: 4vh;
   height: 5vh;
-  animation: 0.7s ease-out 0s 1 animacionFlecha;
 }
 
 .proceso__containerProcesos__proceso {
@@ -269,23 +271,6 @@ hr {
   font-size: 1rem;
 }
 
-.proceso__containerProcesos__proceso__izquierda {
-  animation: 0.7s ease-out 0s 1 entradaPorIzquierda;
-}
-
-.proceso__containerProcesos__proceso__derecha {
-  animation: 0.7s linear 0s 1 entradaPorDerecha;
-}
-
-@keyframes animacionFlecha {
-  0% {
-    transform: scale(0, 0);
-  }
-  100% {
-    transform: scale(1, 1);
-  }
-}
-
 .sobreNosotros__container {
   margin: 20vh 0% 30vh 0%;
   display: flex;
@@ -305,6 +290,7 @@ hr {
 }
 
 .sobreNosotros__container__historia p {
+  text-align: justify;
   padding: 15px;
 }
 
