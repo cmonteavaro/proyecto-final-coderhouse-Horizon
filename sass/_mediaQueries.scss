@@ -4,11 +4,17 @@
 
       margin-top: 3vh;
     }
+
+    &__empresa{
+
+      h2 img{
+        margin-top: -1vh;
+        width: 6vw;
+      }
+    }
     
 
   }
-
-
 
     /* INDEX */
   
@@ -24,6 +30,11 @@
       }
   
       
+    }
+
+    .index__body{
+      background-position: -30vw 0px;
+
     }
   
     #parrafoHome {

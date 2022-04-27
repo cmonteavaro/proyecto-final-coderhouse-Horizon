@@ -103,6 +103,11 @@ header .activo {
   transition: color .2s;
 }
 
+.footer__empresa h2 img {
+  margin-top: -1.5vh;
+  width: 3vw;
+}
+
 .footer__contacto i {
   font-size: 1rem;
 }
@@ -410,6 +415,10 @@ hr {
   .footer__contacto {
     margin-top: 3vh;
   }
+  .footer__empresa h2 img {
+    margin-top: -1vh;
+    width: 6vw;
+  }
   /* INDEX */
   .index__contenedor {
     width: 100vw;
@@ -419,6 +428,9 @@ hr {
   }
   .index__contenedor__textoIndex__h1Home {
     font-size: 2rem;
+  }
+  .index__body {
+    background-position: -30vw 0px;
   }
   #parrafoHome {
     font-size: 0.9rem;
