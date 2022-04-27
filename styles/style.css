@@ -48,21 +48,71 @@ header .activo {
 }
 
 /* Footer */
+/*
 .footer {
-  background-color: #f0c79e;
+  background-color: map-get($colores, header);
+  padding: 2vh;
   height: 10%;
   text-align: center;
-  font-style: italic;
   font-size: small;
+  border-top: 1px solid black;
+
+  &__logoFooter{
+    width: 50px;
+
+  }
+
+  &__logoIGFooter{
+    width: 15px;
+
+  }
+
+  a{
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+  }
+}
+*/
+.footer {
+  background: #f0c79e;
+  color: black;
   border-top: 1px solid black;
 }
 
-.footer__logoFooter {
-  width: 50px;
+.footer__links ul {
+  list-style-type: none;
 }
 
-.footer__logoIGFooter {
-  width: 15px;
+.footer__links li a {
+  color: black;
+  transition: color .2s;
+}
+
+.footer__links li a:hover {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer__empresa i {
+  font-size: 1.5rem;
+}
+
+.footer__empresa a {
+  color: black;
+  transition: color .2s;
+}
+
+.footer__contacto i {
+  font-size: 1rem;
+}
+
+.footer__contacto__iconos {
+  margin-right: 1vw;
+}
+
+.copyright p {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 @keyframes entradaPorDerecha {
@@ -357,6 +407,9 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
+  .footer__contacto {
+    margin-top: 3vh;
+  }
   /* INDEX */
   .index__contenedor {
     width: 100vw;
