@@ -206,7 +206,7 @@ header .activo {
 }
 
 .contacto__containerContacto__cajaDatos img {
-  width: 0.9vw;
+  width: 1vw;
 }
 
 .contacto__containerContacto__cajaDatos__parrafoDatos {
@@ -373,7 +373,7 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 3vh;
-  margin: 0vh 1vw 4vh 1vw;
+  margin: 0vh 4vw 4vh 4vw;
   align-items: center;
 }
 
