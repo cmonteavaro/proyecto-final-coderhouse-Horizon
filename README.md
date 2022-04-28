@@ -14,6 +14,7 @@ Como resultado se desarrolló una web full responsive, tanto en escritorio como 
 - CSS
 - SASS
 - BOOTSTRAP
+- AOS
 
 
 
