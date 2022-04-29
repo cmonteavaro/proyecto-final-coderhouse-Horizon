@@ -205,8 +205,13 @@ header .activo {
   padding: 0 auto 0 auto;
 }
 
-.contacto__containerContacto__cajaDatos img {
-  width: 1vw;
+.contacto__containerContacto__cajaDatos a {
+  color: black;
+  text-decoration: none;
+}
+
+.contacto__containerContacto__cajaDatos a:hover {
+  font-weight: 600;
 }
 
 .contacto__containerContacto__cajaDatos__parrafoDatos {
